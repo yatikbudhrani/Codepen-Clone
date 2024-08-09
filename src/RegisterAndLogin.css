@@ -1,0 +1,69 @@
+.App1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background: linear-gradient(to right, #4ca1af, #c4e0e5);
+}
+
+.App1 h1 {
+  color: #ffdd40;
+}
+
+.form-container {
+  background-color: #f9f9f9;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #444857;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.381);
+  width: 400px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.pointer {
+  cursor: pointer;
+  color: #ffdd40;
+}
+
+.activeColor {
+  color: #007bff;
+}
+
+input[name="email"],
+input[name="password"],
+.btn3 {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.btn3 {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Arial Black", sans-serif;
+}
+
+.error {
+  color: red;
+}
